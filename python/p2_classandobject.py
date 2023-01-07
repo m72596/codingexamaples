@@ -9,7 +9,7 @@ class Loan:
 	attr2 = "credit"
 
 	# A sample method
-	def fun(self):
+	def information(self):
 		print("Balance", self.attr1)
 		print("Balance", self.attr2)
 
@@ -21,4 +21,4 @@ var = Loan()
 # Accessing class attributes
 # and method through objects
 print(var.attr1)
-var.fun()
+var.information()
